@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Root, dark theme used for dark theme */
+:root{
+    --primary-color: #efeae3;
+    --secondary-color: #212121;
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #efeae3;
+}
+ 
+::selection {
+    color: #000;
+    background: #efeae3;
+}
+
+body{
+    background-image: url("2.png");
+    background-color: var(--primary-color);
+}
+
+/*  */
+::selection {
+    color: #000;
+    background: #fff;
+}
+
+body{
+    background-image: url("../Background.png");
+}
+#icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width:30px;
+    cursor: pointer;
+    display: inline;
+    padding: 0px 4px;
+}
+/* Navigation Bar */
+nav {
+    position: fixed;
+    /* background: #EFEAE3; */
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+
+nav .menu {
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu ul{
+    flex: 1;
+    justify-content: right;
+}
+.menu .logo a {
+    background: linear-gradient(to top,#18B791 28%, #062E25 76%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    /* color: #005960; */
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu ul li:first-child {
+    margin-left: 0px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background: var(--secondary-color);
+    color:var(--primary-color);
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .menu ul {
+        display: none;
+        flex-direction: column;
+        background: #EFEAE3;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .menu ul li{
+        min-width: 30%;
+        border-radius: 8px;
+        margin-bottom: 3px;
+        padding: 1.5px 2px;
+        border: 2px solid black;
+        text-align: center; /* Centers inline text inside the <li> */
+        /* display: flex; Makes it a flex container */
+        /* justify-content: center; Centers content horizontally */
+        /* align-items: center; Centers content vertically */
+    }
+    .menu ul.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .btns button {
+        width: 140px;
+        height: 45px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav .menu {
+        padding: 0 10px;
+    }
+
+    .menu .logo a {
+        font-size: 28px;
+    }
+}

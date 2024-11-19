@@ -1,0 +1,118 @@
+  body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  overflow-y: hidden;
+}
+/* Root, dark theme used for dark theme */
+:root{
+  --primary-color: #efeae3;
+  --secondary-color: #212121;
+}
+.dark-theme{
+  --primary-color: #000106;
+  --secondary-color: #fff;
+}
+#icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width:30px;
+  cursor: pointer;
+  display: inline;
+  padding: 0px 4px;
+}
+nav{
+  position: sticky;
+  top:0;
+}
+.hidden {
+  display: none;
+}
+.maincontainer {
+  margin: 50px 80px;
+  position: relative;
+  padding:7vh 10vw ;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: -10px 13px 16px rgba(0, 0, 0, 0.2);
+}
+/* .chapters{
+  display: grid;
+  grid-row: auto;
+} */
+.chapter-card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 30px;
+  margin: 10px;
+  cursor: pointer;
+  /* display:block; */
+  /* width: 200px;
+  height: 100px; */
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.chapter-card:hover {
+  background-color: #e0e0ff;
+}
+/* OPtions cha vertical column */
+.options{
+display: grid;
+}
+.options button {
+
+  border-radius: 5px;
+  margin: 5px;
+  padding: 7%;
+  border: none;
+  background-color: #ffcc00;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.options button:hover {
+  background-color: #ffaa00;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: none;
+}
+
+.correct {
+  background-color: #28a745 !important; /* Green */
+  color: white;
+}
+
+.wrong {
+  background-color: #dc3545 !important; /* Red */
+  color: white;
+}
+
+#next-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#next-btn:hover:enabled {
+  background-color: #0056b3;
+}
+
+/* Manual Formatting starts here */

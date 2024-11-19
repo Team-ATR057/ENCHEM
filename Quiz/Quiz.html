@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Chemistry Quiz</title>
+  <link rel="stylesheet" href="quiz_style.css">
+  <link rel="stylesheet" href="../commonstyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="../index.html">ENCHEM</a>
+      </div>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul>
+        <li><a href="../Notes/notes.html">Theory</a></li>
+        <li><a href="../Lectures/lectures.html">Lectures</a></li>
+        <li><a href="../Quiz/Quiz.html">MCQ's</a></li>
+        <li><a href="../pyq/pyq.html">PYQ</a></li>
+        <li><a href="../Flashcards/flashcards.html">Flashcard</a></li>
+        <img src="../moon.png" id="icon"> 
+      </ul>
+    </div>
+  </nav>
+
+  <div class="maincontainer">
+    <div id="chapters">
+      <h2>Select a Chapter For Quiz</h2>
+      <div class="chapter-card" onclick="startQuiz('chapter1')">Water Technology and Green Chemistry</div>
+      <div class="chapter-card" onclick="startQuiz('chapter2')">Fuels</div>
+      <div class="chapter-card" onclick="startQuiz('chapter3')">Corrosion</div>
+      <div class="chapter-card" onclick="startQuiz('chapter4')">Polymers</div>
+    </div>
+
+    <div id="quiz-section" class="hidden">
+      <h2 id="quiz-title">Quiz</h2>
+      <p id="question">Question will appear here</p>
+      <div class="options">
+        <button class="option" onclick="selectOption(this, 0)">Option 1</button>
+        <button class="option" onclick="selectOption(this, 1)">Option 2</button>
+        <button class="option" onclick="selectOption(this, 2)">Option 3</button>
+        <button class="option" onclick="selectOption(this, 3)">Option 4</button>
+      </div>
+      <button id="next-btn" onclick="nextQuestion()" disabled>Next</button>
+    </div>
+
+    <div id="score-section" class="hidden">
+      <h2>Your Score</h2>
+      <p id="score">0/0</p>
+      <button onclick="retryQuiz()">Retry</button>
+    </div>
+  </div>
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const menu = document.querySelector('.menu ul');
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+    // moon sun
+    var icon = document.getElementById("icon");
+        icon.onclick = function () {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                icon.src = "../sun.png";
+            }
+            else {
+                icon.src = "../moon.png";
+            }
+
+
+        }
+            // js for button to change bg
+        // JavaScript to toggle background images
+const toggleButton = document.getElementById('icon');
+let isImage1 = true; // Tracks the current background
+
+toggleButton.addEventListener('click', () => {
+    // Toggle the background image
+    document.body.style.backgroundImage = isImage1 
+    ? "url('../1.png')" 
+    : "url('../2.png')";
+    isImage1 = !isImage1; // Flip the boolean
+});
+
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  <script src="quiz_script.js"></script>
+</body>
+
+</html>
