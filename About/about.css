@@ -7,7 +7,8 @@ body {
   margin: 20px;
   text-align: center;
   padding: 20px;
-  overflow-y: hidden;
+  overflow-x: hidden;
+  flex-direction: column;
 }
 /* Root, dark theme used for dark theme */
 :root{
@@ -31,6 +32,7 @@ body {
   padding: 0px 4px;
 }
 nav{
+  background-color:var(--primary-color); 
   position: sticky;
   top:0;
 }
@@ -63,9 +65,125 @@ nav{
   /* width: 200px;
   height: 100px; */
   text-align: center;
-  transition: background-color 0.3s;
 }
 
 .chapter-card:hover {
   background-color: #e0e0ff;
+}
+
+/* Body starts here */
+.car{
+  border-radius: 3% ;
+  max-width:90%;
+  display: inline; 
+  margin: 4% auto;
+  width: 90%; 
+  height: auto; 
+}
+/* Adjust for smaller screens (tablets) */
+@media (max-width: 768px) {
+  .car {
+    padding: 2% 2%;
+    width: 90%; /* Increase width for smaller screens */
+    height: auto;
+  }
+}
+
+/* Adjust for extra-small screens (phones) */
+@media (max-width: 480px) {
+  .car {
+    padding: 3% 3%;
+    width: 90%; /* Increase width for phones */
+    height: auto;
+  }
+}
+.circle-container {
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+  width: 90%;
+  margin: 0 auto; 
+}
+
+.circle {
+  color: var(--secondary-color);
+  padding: 3% 3%;
+  width: 25vw;
+  /* height: 20vw; */
+  background-color: var(--primary-color);
+  border-radius: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;  
+  box-shadow: 6px 6px 10px 4px rgb(168 162 153);
+  margin: 10px; 
+  font-size: clamp(12px, 0.8em, 16px); /* Responsive font size */
+}
+/* Adjust for smaller screens (tablets) */
+@media (max-width: 768px) {
+  .circle {
+    padding: 4% 4%;
+    width: 40vw; /* Increase width for smaller screens */
+    font-size: clamp(10px, 0.7em, 14px); /* Slightly smaller font */
+  }
+}
+
+/* Adjust for extra-small screens (phones) */
+@media (max-width: 480px) {
+  .circle {
+    padding: 5% 5%;
+    width: 60vw; /* Increase width for phones */
+    font-size: clamp(8px, 0.6em, 12px); /* Further reduce font size */
+  }
+}
+
+.group{
+width: 50%;
+border: 2px var(--secondary-color) solid;
+border-radius: 1%;
+
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+  width: 90%;
+  margin: 5% auto; 
+}
+.title{
+  font-size: 1.8em;
+}
+.team {
+  color: var(--secondary-color);
+  padding: 3% 3%;
+  width: 15vw;
+  /* height: 20vw; */
+  background-color: var(--primary-color);
+  border-radius: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;  
+  box-shadow: 0px 0px 5px 4px rgb(168 162 153);
+  margin: 10px; 
+  font-size: clamp(12px, 1.2em, 24px); /* Responsive font size */
+}
+/* Adjust for smaller screens (tablets) */
+@media (max-width: 768px) {
+  .team {
+    padding: 4% 4%;
+    width: 40vw; /* Increase width for smaller screens */
+    font-size: clamp(10px, 0.7em, 14px); /* Slightly smaller font */
+  }
+}
+
+/* Adjust for extra-small screens (phones) */
+@media (max-width: 480px) {
+  .team {
+    padding: 5% 5%;
+    width: 60vw; /* Increase width for phones */
+    font-size: clamp(8px, 0.6em, 12px); /* Further reduce font size */
+  }
 }

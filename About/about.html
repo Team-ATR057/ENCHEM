@@ -1,47 +1,88 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us</title>
-  <link rel="stylesheet" href="about.css">
-  <link rel="stylesheet" href="../commonstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="../commonstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
+
 <body>
-  <nav>
-    <div class="menu">
-        <div class="logo">
-            <a href="../index.html">ENCHEM</a>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <a href="../index.html">ENCHEM</a>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul>
+                <li><a href="../About/about.html">About Us</a></li>
+                <li><a href="../Notes/notes.html">Theory</a></li>
+                <li><a href="../Lectures/lectures.html">Lectures</a></li>
+                <li><a href="../Quiz/Quiz.html">Quiz</a></li>
+                <li><a href="../pyq/pyq.html">Questions</a></li>
+                <img src="../moon.png" id="icon" alt="mamamama">
+            </ul>
         </div>
-        <div class="hamburger">
-            <i class="fas fa-bars"></i>
+    </nav>
+    <!-- Placeholder Image for dark theme ss -->
+    <img src="../car1.png" alt="car image" class="car" id="car">
+    <br>
+    <div class="circle-container">
+        <div class="circle">
+            <h5 class="title">VISION</h5>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolor deserunt exercitationem iusto
+            pariatur iure minus in error repudiandae vero? Atque sint enim porro dignissimos cum tenetur libero eos
+            odit!
         </div>
-        <ul>
-            <li><a href="../About/about.html">About Us</a></li>
-            <li><a href="../Notes/notes.html">Theory</a></li>
-            <li><a href="../Lectures/lectures.html">Lectures</a></li>
-            <li><a href="../Quiz/Quiz.html">Quiz</a></li>
-            <li><a href="../pyq/pyq.html">Questions</a></li>
-            <img src="../moon.png" id="icon">
-        </ul>
+        <div class="circle">
+            <H5 class="title">WHAT WE DO</H5>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, accusantium accusamus
+            incidunt alias ut dicta illo eum natus quas dolore explicabo officiis quidem, voluptatum consectetur non
+            autem dolorum mollitia unde.
+        </div>
+        <div class="circle">
+            <h5 class="title">MENTOR</h5>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perferendis maiores sequi
+            dolores reprehenderit blanditiis, laboriosam eum, cum earum aperiam non ducimus voluptatem sunt reiciendis
+            voluptas magni labore consequuntur adipisci.
+        </div>
     </div>
-</nav>
+    <br>
+    <img src="../group.jpg" alt="group photo" class="group">
+    <div class="team-container">
+        <div class="team">
+            <h5>Gaurang Joshi</h5>
+        </div>
+        <div class="team">
+            <h5>Soham Sapkal</h5>
+        </div>
+        <div class="team">
+            <h5>Uday Lingayat</h5>
+        </div>
+        <div class="team">
+            <h5>Viraj Pathare</h5>
+        </div>
+        
+    </div>
 
-
-<script>
-  const hamburger = document.querySelector('.hamburger');
-  const menu = document.querySelector('.menu ul');
-  hamburger.addEventListener('click', () => {
-      menu.classList.toggle('show');
-  });
-          // js for button to change bg
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const menu = document.querySelector('.menu ul');
+        hamburger.addEventListener('click', () => {
+            menu.classList.toggle('show');
+        });
+        // js for button to change bg
         // JavaScript to toggle background images
-const toggleButton = document.getElementById('icon');
-let isImage1 = true; // Tracks the current background
+        const toggleButton = document.getElementById('icon');
+        let isImage1 = true; // Tracks the current background
 
-    // moon sun
-    var icon = document.getElementById("icon");
+        // moon sun
+        var icon = document.getElementById("icon");
         icon.onclick = function () {
             document.body.classList.toggle("dark-theme");
             if (document.body.classList.contains("dark-theme")) {
@@ -53,14 +94,29 @@ let isImage1 = true; // Tracks the current background
 
 
         }
-toggleButton.addEventListener('click', () => {
-    // Toggle the background image
-    document.body.style.backgroundImage = isImage1 
-        ? "url('../1.png')" 
-        : "url('../2.png')";
-    isImage1 = !isImage1; // Flip the boolean
-});
-
-</script>
+        toggleButton.addEventListener('click', () => {
+            // Toggle the background image
+            document.body.style.backgroundImage = isImage1
+                ? "url('../1.png')"
+                : "url('../2.png')";
+            isImage1 = !isImage1; // Flip the boolean
+        });
+    </script>
+    <script>
+        let isCarImage1 = true; // Tracks the current image for the car
+        toggleButton.addEventListener('click', () => {
+            // Toggle the car image
+            const carImage = document.getElementById('car');
+            if (carImage) {
+                carImage.style.opacity = '0'; // Fade out
+                setTimeout(() => {
+                carImage.src = isCarImage1 ? '../car2.png' : '../car1.png';
+                isCarImage1 = !isCarImage1; // Flip the boolean
+                carImage.style.opacity = '1'; // Fade in
+            }, 0);
+            }
+        });
+    </script>
 </body>
+
 </html>
