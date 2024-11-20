@@ -77,3 +77,28 @@ nav{
   text-decoration: none;
   color: black;
 }
+
+.pdf {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow-y: hidden;
+}
+
+.pdf,
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  background-image: url("../Background.png");
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  color: green;
+}
