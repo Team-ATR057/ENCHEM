@@ -122,7 +122,7 @@ nav .menu {
     .menu ul {
         display: none;
         flex-direction: column;
-        background: #EFEAE3;
+        background: var(--primary-color);
         position: absolute;
         top: 60px;
         right: 0;
@@ -134,7 +134,7 @@ nav .menu {
         border-radius: 8px;
         margin-bottom: 3px;
         padding: 1.5px 2px;
-        border: 2px solid black;
+        border: 2px solid var(--secondary-color);
         text-align: center; /* Centers inline text inside the <li> */
         /* display: flex; Makes it a flex container */
         /* justify-content: center; Centers content horizontally */
