@@ -6,17 +6,21 @@ body {
   font-family: Arial, sans-serif;
   margin: 20px;
   text-align: center;
-  padding: 20px;
+  /* padding: 5px; */
   overflow-y: hidden;
 }
 /* Root, dark theme used for dark theme */
 :root{
   --primary-color: #efeae3;
   --secondary-color: #212121;
+  --tertiary-color: #f0f0f0;
+  --quaternary-color: #515151;
 }
 .dark-theme{
   --primary-color: #000106;
   --secondary-color: #fff;
+  --tertiary-color: #515151;
+  --quaternary-color: #f0f0f0 ;
 }
 
 nav{
@@ -30,7 +34,6 @@ nav{
   margin: 50px 80px;
   position: relative;
   padding:7vh 10vw ;
-  
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -38,12 +41,31 @@ nav{
   border-radius: 12px;
   box-shadow: -10px 13px 16px rgba(0, 0, 0, 0.2);
 }
+/* This main container is for question answer collapsible */
+#maincontainer {
+  /* transition: 1s ease-out; */
+  margin: 80px 40px;
+  position: relative;
+  padding:5vh 5vw ;
+  width: 200vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: -10px 13px 16px rgba(0, 0, 0, 0.2);
+}
+
 .chapters{
   display: grid;
   grid-row: auto;
+}a{
+  text-decoration: none;
 }
 .chapter-card {
-  background-color: #f0f0f0;
+ text-decoration: none;
+ color: var(--secondary-color);
+  background-color: var(--tertiary-color);
   border: 1px solid #ccc;
   padding: 30px;
   margin: 10px;
@@ -52,11 +74,12 @@ nav{
   /* width: 200px;
   height: 100px; */
   text-align: center;
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
 }
 
 .chapter-card:hover {
-  background-color: #e0e0ff;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 #icon {
@@ -70,4 +93,32 @@ nav{
   cursor: pointer;
   display: inline;
   padding: 0px 4px;
+}
+
+/* Question answer collapsible */
+.collapsible {
+
+    background-color: #414040;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 2px 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+button{
+  margin: 2px;
 }

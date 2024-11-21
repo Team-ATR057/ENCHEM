@@ -9,10 +9,14 @@
 :root{
     --primary-color: #efeae3;
     --secondary-color: #212121;
+    --tertiary-color: #f0f0f0;
+    --quaternary-color: #515151;
 }
 .dark-theme{
     --primary-color: #000106;
     --secondary-color: #efeae3;
+    --tertiary-color: #515151;
+    --quaternary-color: #f0f0f0 ;
 }
  
 ::selection {
