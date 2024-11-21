@@ -170,6 +170,7 @@ border-radius: 1%;
   margin: 10px; 
   font-size: clamp(12px, 1.2em, 24px); /* Responsive font size */
 }
+
 /* Adjust for smaller screens (tablets) */
 @media (max-width: 768px) {
   .team {
