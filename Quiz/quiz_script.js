@@ -96,6 +96,17 @@ function nextQuestion() {
     finishQuiz();
   }
 }
+function skipQuestion() {
+  currentQuestionIndex++;
+  if (currentQuestionIndex < questions[currentChapter].length) {
+    loadQuestion();
+  } else {
+    finishQuiz();
+  }
+}
+function endQuiz() {
+  finishQuiz();
+}
 
 function finishQuiz() {
   document.getElementById("quiz-section").classList.add("hidden");

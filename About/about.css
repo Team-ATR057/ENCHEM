@@ -112,7 +112,7 @@ nav{
   /* height: 20vw; */
   background-color: var(--primary-color);
   border-radius: 2%;
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;  
@@ -154,6 +154,10 @@ border-radius: 1%;
 }
 .title{
   font-size: 1.8em;
+}
+.siranchanav{
+  font-style: bold;
+  font-size: 1.3em;
 }
 .team {
   color: var(--secondary-color);

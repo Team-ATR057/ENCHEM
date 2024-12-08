@@ -50,7 +50,7 @@ body{
 /* Navigation Bar */
 nav {
     position: fixed;
-    /* background: #EFEAE3; */
+    background: var(--primary-color);
     width: 100%;
     padding: 10px 0;
     z-index: 12;
@@ -119,6 +119,9 @@ nav .menu {
 
 /* Media Queries */
 @media (max-width: 768px) {
+    .maincontainer {
+        margin: 8% 2%;
+        }
     .menu ul {
         display: none;
         flex-direction: column;

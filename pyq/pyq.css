@@ -7,7 +7,7 @@ body {
   margin: 20px;
   text-align: center;
   /* padding: 5px; */
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 /* Root, dark theme used for dark theme */
 :root{
@@ -24,6 +24,7 @@ body {
 }
 
 nav{
+  background-color: var(--primary-color);
   position: sticky;
   top:0;
 }

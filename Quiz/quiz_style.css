@@ -7,7 +7,7 @@
   margin: 20px;
   text-align: center;
   padding: 20px;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 /* Root, dark theme used for dark theme */
 :root{
@@ -52,10 +52,10 @@ nav{
   border-radius: 12px;
   box-shadow: -10px 13px 16px rgba(0, 0, 0, 0.2);
 }
-/* .chapters{
-  display: grid;
-  grid-row: auto;
-} */
+.chapters{
+  display: flex;
+  grid-row:auto;
+}
 .chapter-card {
   color: var(--secondary-color);
   background-color: var(--tertiary-color);
@@ -122,3 +122,15 @@ button:disabled {
 }
 
 /* Manual Formatting starts here */
+#skip-btn, #end-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffc107; /* Yellow */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#skip-btn:hover, #end-btn:hover {
+  background-color: #e0a800;
+}
