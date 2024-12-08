@@ -70,6 +70,8 @@ nav .menu {
     justify-content: right;
 }
 .menu .logo a {
+    font-family: "Audiowide", sans-serif;
+    font-style: normal;
     background: linear-gradient(to top,#18B791 28%, #062E25 76%);
     background-clip: text;
     -webkit-text-fill-color: transparent;

@@ -58,8 +58,11 @@ body{
 }
 
 .intro .logo h1 {
+    font-family: "Audiowide", sans-serif;
+    font-style: normal;
+  font-weight: 700;
     font-size: 5rem;
-    font-weight: 700;
+    /* font-weight: 700; */
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
@@ -221,6 +224,8 @@ nav .menu {
     font-weight: 600;
 }
 .center .title .enchem{
+    font-family: "Audiowide", sans-serif;
+    font-style: normal;
     background: linear-gradient(to top,#18B791 28%, #062E25 76%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
