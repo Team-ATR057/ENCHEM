@@ -40,10 +40,11 @@
                 <li><a href="Formula sheet/formula.html">Formula sheets</a></li>
                 <li><a href="Quiz/Quiz.html">Quiz</a></li>
                 <li><a href="pyq/pyq.html">Questions</a></li>
-                <img src="moon.png" id="icon" alt="mamamama">
+                <img src="moon.png" id="icon" alt="mode switch icon">
             </ul>
         </div>
     </nav>
+
     <div class="center">
         <div class="title">Welcome to <span class="enchem">ENCHEM</span></div>
 
@@ -60,12 +61,17 @@
                 intro.classList.add('hidden');
             }, 3000); // Adjust time as needed (3 seconds)
         });
+
+
         // Hamburger menu toggle for responsive navigation
         const hamburger = document.querySelector('.hamburger');
         const menu = document.querySelector('.menu ul');
         hamburger.addEventListener('click', () => {
             menu.classList.toggle('show');
         });
+
+
+        
     </script> <!-- for dark theme -->
     <script>
         var icon = document.getElementById("icon");
