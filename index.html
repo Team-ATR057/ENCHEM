@@ -101,7 +101,6 @@
         // });
 
     // Updates today
-    // Set default background image to 2.png
 // JavaScript to manage background images and theme toggle
 const toggleButton = document.getElementById('icon');
 let isImage1 = false; // Initialize with default as dark theme (2.png)
@@ -123,7 +122,13 @@ toggleButton.addEventListener('click', () => {
         document.body.classList.remove("light-theme");
     } else {
         // Switch to light theme
-        document.body.st
+        document.body.style.backgroundImage = "url('1.png')";
+        toggleButton.src = "moon.png"; // Set icon for dark theme
+        document.body.classList.add("light-theme");
+        document.body.classList.remove("dark-theme");
+    }
+    isImage1 = !isImage1; // Flip the boolean
+});
 
     </script>
 </body>
