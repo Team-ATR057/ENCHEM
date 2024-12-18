@@ -87,18 +87,35 @@
 
         }       
         // js for button to change bg
-        // JavaScript to toggle background images
-        const toggleButton = document.getElementById('icon');
-        let isImage1 = true; // Tracks the current background
+        // // JavaScript to toggle background images
+        // const toggleButton = document.getElementById('icon');
+        // let isImage1 = true; // Tracks the current background
         
 
-        toggleButton.addEventListener('click', () => {
-            // Toggle the background image
-            document.body.style.backgroundImage = isImage1
-                ? "url('1.png')"
-                : "url('2.png')";
-            isImage1 = !isImage1; // Flip the boolean
-        });
+        // toggleButton.addEventListener('click', () => {
+        //     // Toggle the background image
+        //     document.body.style.backgroundImage = isImage1
+        //         ? "url('1.png')"
+        //         : "url('2.png')";
+        //     isImage1 = !isImage1; // Flip the boolean
+        // });
+
+    // Updates today
+    // Set default background image to 2.png
+document.body.style.backgroundImage = "url('2.png')";
+let isImage1 = false; // Initialize with the default as dark theme (2.png)
+
+// JavaScript to toggle background images
+const toggleButton = document.getElementById('icon');
+
+toggleButton.addEventListener('click', () => {
+    // Toggle the background image
+    document.body.style.backgroundImage = isImage1
+        ? "url('2.png')" // Dark theme
+        : "url('1.png')"; // Light theme
+    isImage1 = !isImage1; // Flip the boolean
+});
+
     </script>
 </body>
 
