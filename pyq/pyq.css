@@ -6,49 +6,39 @@ body {
   font-family: Arial, sans-serif;
   margin: 20px;
   text-align: center;
-  /* padding: 5px; */
-  /* overflow-y: hidden; */
 }
-/* Root, dark theme used for dark theme */
-:root{
+
+:root {
   --primary-color: #efeae3;
   --secondary-color: #212121;
   --tertiary-color: #f0f0f0;
   --quaternary-color: #515151;
 }
-.dark-theme{
+
+.dark-theme {
   --primary-color: #000106;
   --secondary-color: #fff;
   --tertiary-color: #515151;
-  --quaternary-color: #f0f0f0 ;
+  --quaternary-color: #f0f0f0;
 }
 
-nav{
+nav {
   background-color: var(--primary-color);
   position: sticky;
-  top:0;
+  top: 0;
+  z-index: 10;
+  padding: 10px 15px;
+  text-align: center;
 }
+
 .hidden {
   display: none;
 }
+
 .maincontainer {
-  margin: 50px 80px;
+  margin: 20px;
   position: relative;
-  padding:7vh 10vw ;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: -10px 13px 16px rgba(0, 0, 0, 0.2);
-}
-/* This main container is for question answer collapsible */
-#maincontainer {
-  /* transition: 1s ease-out; */
-  margin: 80px 40px;
-  position: relative;
-  padding:5vh 5vw ;
-  width: 200vw;
+  padding: 5vh 5vw;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -57,25 +47,39 @@ nav{
   box-shadow: -10px 13px 16px rgba(0, 0, 0, 0.2);
 }
 
-.chapters{
+#maincontainer {
+  margin: 40px 20px;
+  position: relative;
+  padding: 5vh 5vw;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: -10px 13px 16px rgba(0, 0, 0, 0.2);
+}
+
+.chapters {
   display: grid;
-  grid-row: auto;
-}a{
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px; /* Reduced gap between images */
+}
+
+a {
   text-decoration: none;
 }
+
 .chapter-card {
- text-decoration: none;
- color: var(--secondary-color);
+  text-decoration: none;
+  color: var(--secondary-color);
   background-color: var(--tertiary-color);
   border: 1px solid #ccc;
-  padding: 30px;
-  margin: 10px;
+  padding: 20px;
   cursor: pointer;
-  /* display: inline-block; */
-  /* width: 200px;
-  height: 100px; */
   text-align: center;
-  /* transition: background-color 0.3s; */
+  border-radius: 8px;
+  transition: background-color 0.3s;
 }
 
 .chapter-card:hover {
@@ -87,19 +91,12 @@ nav{
   position: absolute;
   top: 20px;
   left: 20px;
-  padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  width:30px;
-  cursor: pointer;
-  display: inline;
-  padding: 0px 4px;
 }
 
-/* Question answer collapsible */
 .collapsible {
-
-    background-color: #414040;
+  background-color: #414040;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -108,6 +105,7 @@ nav{
   text-align: left;
   outline: none;
   font-size: 15px;
+  border-radius: 8px;
 }
 
 .active, .collapsible:hover {
@@ -115,11 +113,103 @@ nav{
 }
 
 .content {
-  padding: 2px 18px;
+  padding: 10px 18px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+  text-align: center;
 }
-button{
-  margin: 2px;
+
+.content p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.content p img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer; /* Indicate that the image is clickable */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Overlay Background for Expanded Image */
+.content.expanded {
+  position: fixed; /* Fixed to the screen */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Make sure it appears above all other content */
+}
+
+.content.expanded img {
+  max-width: 80%; /* Limit the size of the expanded image */
+  height: auto;
+  cursor: zoom-out; /* Change cursor to indicate it's clickable to close */
+}
+
+/* Close button for expanded image */
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 8px; /* Adjusted padding */
+  border: none;
+  font-size: 20px; /* Adjusted font size */
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000; /* Ensure the button is above the image */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the content inside the button */
+  width: 40px; /* Set a fixed width */
+  height: 40px; /* Set a fixed height */
+}
+
+@media (max-width: 768px) {
+  .content p img {
+    max-width: 90%;
+  }
+
+  .content.expanded img {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    margin: 5px;
+  }
+
+  .maincontainer, #maincontainer {
+    padding: 4vh 5vw;
+  }
+
+  .chapter-card {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .collapsible {
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .content p img {
+    max-width: 85%;
+  }
+}
+
+button {
+  margin: 5px;
 }

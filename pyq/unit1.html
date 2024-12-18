@@ -193,6 +193,37 @@
         }
       });
     }
+
+    // gallery type
+// Get all images inside .content
+const images = document.querySelectorAll('.content p img');
+
+// Loop through each image and add an event listener
+images.forEach(image => {
+  image.addEventListener('click', () => {
+    // Create and show an overlay when the image is clicked
+    const overlay = document.createElement('div');
+    overlay.classList.add('content', 'expanded');
+    overlay.innerHTML = `
+      <img src="${image.src}" alt="${image.alt}">
+      <button class="close-btn">X</button>
+    `;
+    document.body.appendChild(overlay);
+
+    // Add event listener to close button
+    overlay.querySelector('.close-btn').addEventListener('click', () => {
+      overlay.remove(); // Remove the overlay when clicked
+    });
+
+    // Add event listener to overlay itself to close on clicking outside image
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) {
+        overlay.remove(); // Close overlay when clicking outside the image
+      }
+    });
+  });
+});
+
   </script>
 </body>
 
