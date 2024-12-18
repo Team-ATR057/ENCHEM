@@ -102,19 +102,28 @@
 
     // Updates today
     // Set default background image to 2.png
-document.body.style.backgroundImage = "url('2.png')";
-let isImage1 = false; // Initialize with the default as dark theme (2.png)
-
-// JavaScript to toggle background images
+// JavaScript to manage background images and theme toggle
 const toggleButton = document.getElementById('icon');
+let isImage1 = false; // Initialize with default as dark theme (2.png)
 
+// Set default background image to 2.png (dark theme)
+window.onload = () => {
+    document.body.style.backgroundImage = "url('2.png')"; // Default dark theme background
+    document.body.style.backgroundColor = "transparent"; // Ensure no solid background color interferes
+    document.body.classList.add("dark-theme"); // Apply default theme class
+};
+
+// Toggle background images and theme on button click
 toggleButton.addEventListener('click', () => {
-    // Toggle the background image
-    document.body.style.backgroundImage = isImage1
-        ? "url('2.png')" // Dark theme
-        : "url('1.png')"; // Light theme
-    isImage1 = !isImage1; // Flip the boolean
-});
+    if (isImage1) {
+        // Switch to dark theme
+        document.body.style.backgroundImage = "url('2.png')";
+        toggleButton.src = "sun.png"; // Set icon for light theme
+        document.body.classList.add("dark-theme");
+        document.body.classList.remove("light-theme");
+    } else {
+        // Switch to light theme
+        document.body.st
 
     </script>
 </body>
