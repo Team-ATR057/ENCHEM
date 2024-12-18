@@ -87,48 +87,18 @@
 
         }       
         // js for button to change bg
-        // // JavaScript to toggle background images
-        // const toggleButton = document.getElementById('icon');
-        // let isImage1 = true; // Tracks the current background
+        // JavaScript to toggle background images
+        const toggleButton = document.getElementById('icon');
+        let isImage1 = true; // Tracks the current background
         
 
-        // toggleButton.addEventListener('click', () => {
-        //     // Toggle the background image
-        //     document.body.style.backgroundImage = isImage1
-        //         ? "url('1.png')"
-        //         : "url('2.png')";
-        //     isImage1 = !isImage1; // Flip the boolean
-        // });
-
-    // Updates today
-// JavaScript to manage background images and theme toggle
-const toggleButton = document.getElementById('icon');
-let isImage1 = false; // Initialize with default as dark theme (2.png)
-
-// Set default background image to 2.png (dark theme)
-window.onload = () => {
-    document.body.style.backgroundImage = "url('2.png')"; // Default dark theme background
-    document.body.style.backgroundColor = "transparent"; // Ensure no solid background color interferes
-    document.body.classList.add("dark-theme"); // Apply default theme class
-};
-
-// Toggle background images and theme on button click
-toggleButton.addEventListener('click', () => {
-    if (isImage1) {
-        // Switch to dark theme
-        document.body.style.backgroundImage = "url('2.png')";
-        toggleButton.src = "sun.png"; // Set icon for light theme
-        document.body.classList.add("dark-theme");
-        document.body.classList.remove("light-theme");
-    } else {
-        // Switch to light theme
-        document.body.style.backgroundImage = "url('1.png')";
-        toggleButton.src = "moon.png"; // Set icon for dark theme
-        document.body.classList.add("light-theme");
-        document.body.classList.remove("dark-theme");
-    }
-    isImage1 = !isImage1; // Flip the boolean
-});
+        toggleButton.addEventListener('click', () => {
+            // Toggle the background image
+            document.body.style.backgroundImage = isImage1
+                ? "url('1.png')"
+                : "url('2.png')";
+            isImage1 = !isImage1; // Flip the boolean
+        });
 
     </script>
 </body>
