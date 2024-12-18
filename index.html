@@ -99,6 +99,23 @@
                 : "url('2.png')";
             isImage1 = !isImage1; // Flip the boolean
         });
+
+        // New code 18th december to preload images
+        window.onload = () => {
+    // Preload both background images
+    const images = ['./1.png', './2.png']; // Adjust paths for GitHub Pages
+    images.forEach((src) => {
+        const img = new Image();
+        img.src = src;
+    });
+
+    // Set the default theme background image
+    const isDarkTheme = document.body.classList.contains('dark-theme');
+    document.body.style.backgroundImage = isDarkTheme
+        ? "url('./2.png')"
+        : "url('./1.png')";
+};
+
     </script>
 </body>
 
