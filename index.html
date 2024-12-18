@@ -99,36 +99,6 @@
                 : "url('2.png')";
             isImage1 = !isImage1; // Flip the boolean
         });
-
-        // New code 18th december to preload images
-        window.onload = () => {
-    const savedTheme = localStorage.getItem('theme') || 'light';
-
-    // Apply the saved theme or default to light
-    if (savedTheme === 'dark') {
-        document.body.classList.add('dark-theme');
-        document.body.style.backgroundImage = "url('./2.png')";
-        icon.src = "sun.png"; // Icon for light mode toggle
-    } else {
-        document.body.style.backgroundImage = "url('./1.png')";
-        icon.src = "moon.png"; // Icon for dark mode toggle
-    }
-
-    // Preload both background images
-    const images = ['./2.png','./1.png']; // Paths to images
-    images.forEach((src) => {
-        const img = new Image();
-        img.src = src;
-    });
-};
-
-icon.onclick = function () {
-    const isDark = document.body.classList.toggle('dark-theme');
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-    document.body.style.backgroundImage = isDark ? "url('./2.png')" : "url('./1.png')";
-    icon.src = isDark ? "sun.png" : "moon.png";
-};
-
     </script>
 </body>
 
