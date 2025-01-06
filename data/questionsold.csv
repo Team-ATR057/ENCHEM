@@ -1,0 +1,61 @@
+chapter,question,option1,option2,option3,option4,correct
+chapter1,What type of impurities in water are removed by coagulation?,Suspended impurities,Colloidal impurities,Dissolved impurities,Biological impurities,2
+chapter1,Which process is used to remove biological impurities in water?,Sedimentation,Filtration,Sterilization,Boiling,3
+chapter1,What causes temporary hardness in water?,Chlorides of calcium and magnesium,Carbonates of calcium and magnesium,Sulphates of calcium and magnesium,Hydroxides of iron,2
+chapter1,What is the disadvantage of scale formation in boilers?,Enhances heat transfer,Causes overheating,Improves efficiency,Reduces boiler safety,4
+chapter1,What is the key principle of the zeolite process?,Removal of chlorides,Exchange of ions,Deposition of ions,Removal of metals,2
+chapter1,Which method is used for the complete removal of ionic impurities from water?,Boiling,Zeolite process,Reverse osmosis,Electrodialysis,3
+chapter1,Which chemical is used to remove dissolved oxygen in boilers?,Na2SO4,Na2CO3,NaCl,N2H4,4
+chapter1,What is the primary use of green chemistry?,Reduce cost of chemicals,Improve reaction safety,Eliminate hazardous waste,Increase atom economy,3
+chapter1,What is the pH range maintained to avoid boiler corrosion?,6.5-7.0,8.5-9.0,9.5-10.0,7.5-8.5,2
+chapter1,What is the key difference between sludge and scale in boilers?,"Sludge is hard, scale is soft","Scale is soft, sludge is hard",Sludge forms at hot spots,Scale forms at cold spots,1
+chapter1,Calculate the total hardness if 50 ml of a water sample requires 15 ml of 0.02 M EDTA. Use the formula: (Y × Z × 105) / V.,150 ppm,200 ppm,250 ppm,300 ppm,2
+chapter1,A water sample after boiling requires 8 ml of 0.02 M EDTA. Calculate the permanent hardness.,50 ppm,80 ppm,100 ppm,120 ppm,2
+chapter1,A 100 ml water sample requires 10 ml of 0.02 M EDTA for titration. Calculate the hardness in ppm CaCO3 using: (Y × Z × 100 × 1000) / V.,200 ppm,100 ppm,150 ppm,250 ppm,2
+chapter1,Determine the temporary hardness if total hardness is 400 ppm and permanent hardness is 250 ppm.,150 ppm,100 ppm,200 ppm,250 ppm,1
+chapter1,"If 3500 L of water requires 15 L of 10% NaCl for zeolite regeneration, calculate hardness in ppm CaCO3 using: (Amount × 50) / 58.5.",125 ppm,200 ppm,300 ppm,400 ppm,3
+chapter1,"Calculate phenolphthalein alkalinity if V1 = 9 ml, Z = 0.02 N, and V = 50 ml using: V1 × Z × 50 × 1000 / V.",180 ppm,190 ppm,200 ppm,210 ppm,1
+chapter1,"Determine total alkalinity using methyl orange if V2 = 13 ml, Z = 0.02 N, and V = 50 ml using: V2 × Z × 50 × 1000 / V.",260 ppm,270 ppm,280 ppm,290 ppm,2
+chapter1,"If a water sample contains 200 ppm CaCO3 equivalent of temporary hardness and 100 ppm of permanent hardness, find total hardness.",300 ppm,250 ppm,350 ppm,400 ppm,4
+chapter1,Calculate the mass of NaCl required for regeneration of zeolite for 5000 liters of water if hardness is 300 ppm CaCO3.,100 g,120 g,140 g,160 g,3
+chapter1,Determine the hardness of a sample if 4000 L of water requires 12 L of 15% NaCl for zeolite regeneration using: (Amount × 50) / 58.5.,320 ppm,350 ppm,400 ppm,450 ppm,2
+chapter2,A good fuel should have calorific value.,high,moderate,low,no,1
+chapter2,velocity of combustion for good quality fuel should be,high,moderate,low,very low,2
+chapter2,The relation between the two terms Gross Calorific Value (GCV) and Net Calorific Value (NCV) can be explained an,GCV>NCV,GCV<NCV,GCV=NCV,GCV>=NCV,1
+chapter2,The calorific value of a solid fuel can be determined using the,Junker's calorimeter,Bomb calorimeter,colorimeter,Boy's calorimeter,2
+chapter2,A coal contains 60% carbon and 6% hydrogen. Its Gross calorific value is ____cal/gm then the Net calorific value will be 3553.7 cal/gm. Latent heat of steam is 587cal/gm.,3236.72,3606.53,3870.68,3005.5,3
+chapter2,NCV = GCV - ______xHx587 kcal/kg,0.9,9,0.09,90,3
+chapter2,The instrument which is used for measurement of calorific value is,colorimeter,galvanometer,calorimeter,thermometer,3
+chapter2,The corrected formula for calculation of Gross calorific value by Bomb calorimeter,(W+w)(t2-t1+tc)+(ta+tf)/x cal/gm,(W+w)(t2-t1-tc)-(ta+tf)/x cal/gm,(W+w)(t2-t1-tc)+(ta-tf)/x cal/gm,(W+w)(t2-t1+tc)-(ta+tf)/x cal/gm,4
+chapter2,"In a Boy's gas calorimeter, a gaseous fuel was burnt and the following data was obtained. Volume of gas at STP 0.08 m³, Mass of cooling water used 29.5 kg. Rise in temperature of circulating water 9.1 °C. Mass of steam condensed= 0.04 kg. The Gross calorific value of the fuel will be kcal/m³.",268.814,3355.6,482.5,3360.17,4
+chapter2,"In a Boy's gas calorimeter, a gaseous Juel was burnt. The Gross calorific value was found to be 1200 kcal/m³ therefore the Net calorific value will be the mass of steam condensed is 0.025 kg and the volume of gas used is 0.1 m³ at",1346.75,1185.325,1053.25,1055,3
+chapter2,Which of the following is a primary fuel?,Charcoal,Wood,Petrol,LPG,2
+chapter2,What is the calorific value of gaseous fuels measured in?,Cal/m3,kcal/kg,kcal/m3,Cal/kg,3
+chapter2,Which component is high in good-quality coal?,Moisture,Ash,Volatile matter,Fixed carbon,4
+chapter2,Calculate the GCV (kJ/kg) if 1g fuel burns increasing water temperature from 25°C to 27.3°C in 420g water and 100g calorimeter equivalent.,(420+100)*(27.3-25)/1,(400+100)*(27.3-25)/1,(420+120)*(27.3-25)/1,(400+120)*(27.3-25)/1,1
+chapter2,What is the GCV formula for bomb calorimeter without corrections?,(W+w)*(t2-t1)-ta,(W*w)/(t2-t1),(W+w)*(t2-t1)/m,(W+w)/m,1
+chapter2,Which gas is a product of complete combustion of carbon?,CO,CO2,H2,H2O,2
+chapter2,The process of coal formation is called?,Carbonation,Carbonification,Coalification,Combustion,3
+chapter2,Which of the following reduces engine knocking in petrol engines?,Power Alcohol,Synthetic petrol,High sulfur compounds,Lead additives,1
+chapter2,What is the latent heat of steam used in NCV calculations?,587 cal/g,687 cal/g,500 cal/g,487 cal/g,1
+chapter2,Which substance is used to absorb CO2 in coal combustion analysis?,KOH,HCl,CaCl2,BaSO4,1
+chapter3,Which of the following is an example of dry corrosion?,Corrosion by oxygen,Corrosion by moisture,Galvanic corrosion,Electrochemical corrosion,1
+chapter3,What forms on the surface of iron when it rusts?,Magnetite,Ferric hydroxide,Rust,Cuprous oxide,2
+chapter3,Which method involves making the structure the cathode to prevent corrosion?,Anodic protection,Cathodic protection,Passive film formation,Barrier protection,2
+chapter3,What is the process of covering steel with zinc called?,Galvanizing,Tinning,Sherardizing,Electroplating,1
+chapter3,Which of the following describes stress corrosion?,Localized cracking under stress,Chemical reaction without stress,Decreases ductility in dry environments,Increase in tensile strength,1
+chapter3,"In sacrificial anodic protection, what acts as the sacrificial anode?",Copper,Magnesium,Aluminum,Zinc,2
+chapter3,What is the primary cause of wet corrosion?,Moisture in the air,Formation of oxide layers,Presence of salts,Electrochemical cell formation,4
+chapter3,Which type of corrosion occurs in the presence of crevices?,Pitting corrosion,Intergranular corrosion,Soil corrosion,Water-line corrosion,1
+chapter3,What is the function of a Pilling-Bedworth ratio greater than 1?,Protects against further oxidation,Promotes corrosion resistance,Induces brittleness,Makes the surface porous,1
+chapter3,Which electrolyte is commonly used for copper electroplating?,NiCl,CuSO4,KOH,H2SO4,2
+chapter3,Calculate the Pilling-Bedworth ratio for a metal with oxide volume 12 cm³ and metal volume 8 cm³.,1.5,1.2,1.6,1.8,3
+chapter3,"If a zinc-coated metal corrodes, which layer corrodes first?",Base metal,Zinc layer,Protective coating,Iron surface,2
+chapter3,What is the by-product of rust formation on iron?,Cuprous oxide,Iron hydroxide,Hydrogen gas,Ferric oxide,4
+chapter3,"In electrochemical corrosion, where does oxidation occur?",At cathode,At anode,At surface,Everywhere,2
+chapter3,What is the specific volume ratio important for?,Resistance to cracking,Adhesion of protective films,Prevention of oxidation,Oxide layer formation,2
+chapter3,What is the corrosion mechanism when oxygen is absorbed?,Hydrogen evolution,Oxygen absorption,Electrochemical reaction,Crevice corrosion,2
+chapter3,Find the Pilling-Bedworth ratio if oxide volume is 20 cm³ and metal volume is 10 cm³.,0.5,2,2.5,3,4
+chapter3,What happens in the impressed current cathodic protection method?,Anode corrodes,Prevents oxidation,Applies electrical charge,Converts anode to cathode,4
+chapter3,What is the role of magnesium in sacrificial anodic protection?,Acts as cathode,Acts as sacrificial anode,Prevents cathode corrosion,Provides electrons,2
+chapter3,"In galvanic corrosion, which metal corrodes?",The cathodic metal,The anodic metal,Both metals,Neither metal,2

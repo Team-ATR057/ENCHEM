@@ -1,61 +1,161 @@
 chapter,question,option1,option2,option3,option4,correct
-chapter1,What type of impurities in water are removed by coagulation?,Suspended impurities,Colloidal impurities,Dissolved impurities,Biological impurities,2
-chapter1,Which process is used to remove biological impurities in water?,Sedimentation,Filtration,Sterilization,Boiling,3
-chapter1,What causes temporary hardness in water?,Chlorides of calcium and magnesium,Carbonates of calcium and magnesium,Sulphates of calcium and magnesium,Hydroxides of iron,2
-chapter1,What is the disadvantage of scale formation in boilers?,Enhances heat transfer,Causes overheating,Improves efficiency,Reduces boiler safety,4
-chapter1,What is the key principle of the zeolite process?,Removal of chlorides,Exchange of ions,Deposition of ions,Removal of metals,2
-chapter1,Which method is used for the complete removal of ionic impurities from water?,Boiling,Zeolite process,Reverse osmosis,Electrodialysis,3
-chapter1,Which chemical is used to remove dissolved oxygen in boilers?,Na2SO4,Na2CO3,NaCl,N2H4,4
-chapter1,What is the primary use of green chemistry?,Reduce cost of chemicals,Improve reaction safety,Eliminate hazardous waste,Increase atom economy,3
-chapter1,What is the pH range maintained to avoid boiler corrosion?,6.5-7.0,8.5-9.0,9.5-10.0,7.5-8.5,2
-chapter1,What is the key difference between sludge and scale in boilers?,"Sludge is hard, scale is soft","Scale is soft, sludge is hard",Sludge forms at hot spots,Scale forms at cold spots,1
-chapter1,Calculate the total hardness if 50 ml of a water sample requires 15 ml of 0.02 M EDTA. Use the formula: (Y × Z × 105) / V.,150 ppm,200 ppm,250 ppm,300 ppm,2
-chapter1,A water sample after boiling requires 8 ml of 0.02 M EDTA. Calculate the permanent hardness.,50 ppm,80 ppm,100 ppm,120 ppm,2
-chapter1,A 100 ml water sample requires 10 ml of 0.02 M EDTA for titration. Calculate the hardness in ppm CaCO3 using: (Y × Z × 100 × 1000) / V.,200 ppm,100 ppm,150 ppm,250 ppm,2
-chapter1,Determine the temporary hardness if total hardness is 400 ppm and permanent hardness is 250 ppm.,150 ppm,100 ppm,200 ppm,250 ppm,1
-chapter1,"If 3500 L of water requires 15 L of 10% NaCl for zeolite regeneration, calculate hardness in ppm CaCO3 using: (Amount × 50) / 58.5.",125 ppm,200 ppm,300 ppm,400 ppm,3
-chapter1,"Calculate phenolphthalein alkalinity if V1 = 9 ml, Z = 0.02 N, and V = 50 ml using: V1 × Z × 50 × 1000 / V.",180 ppm,190 ppm,200 ppm,210 ppm,1
-chapter1,"Determine total alkalinity using methyl orange if V2 = 13 ml, Z = 0.02 N, and V = 50 ml using: V2 × Z × 50 × 1000 / V.",260 ppm,270 ppm,280 ppm,290 ppm,2
-chapter1,"If a water sample contains 200 ppm CaCO3 equivalent of temporary hardness and 100 ppm of permanent hardness, find total hardness.",300 ppm,250 ppm,350 ppm,400 ppm,4
-chapter1,Calculate the mass of NaCl required for regeneration of zeolite for 5000 liters of water if hardness is 300 ppm CaCO3.,100 g,120 g,140 g,160 g,3
-chapter1,Determine the hardness of a sample if 4000 L of water requires 12 L of 15% NaCl for zeolite regeneration using: (Amount × 50) / 58.5.,320 ppm,350 ppm,400 ppm,450 ppm,2
-chapter2,A good fuel should have calorific value.,high,moderate,low,no,1
-chapter2,velocity of combustion for good quality fuel should be,high,moderate,low,very low,2
-chapter2,The relation between the two terms Gross Calorific Value (GCV) and Net Calorific Value (NCV) can be explained an,GCV>NCV,GCV<NCV,GCV=NCV,GCV>=NCV,1
-chapter2,The calorific value of a solid fuel can be determined using the,Junker's calorimeter,Bomb calorimeter,colorimeter,Boy's calorimeter,2
-chapter2,A coal contains 60% carbon and 6% hydrogen. Its Gross calorific value is ____cal/gm then the Net calorific value will be 3553.7 cal/gm. Latent heat of steam is 587cal/gm.,3236.72,3606.53,3870.68,3005.5,3
-chapter2,NCV = GCV - ______xHx587 kcal/kg,0.9,9,0.09,90,3
-chapter2,The instrument which is used for measurement of calorific value is,colorimeter,galvanometer,calorimeter,thermometer,3
-chapter2,The corrected formula for calculation of Gross calorific value by Bomb calorimeter,(W+w)(t2-t1+tc)+(ta+tf)/x cal/gm,(W+w)(t2-t1-tc)-(ta+tf)/x cal/gm,(W+w)(t2-t1-tc)+(ta-tf)/x cal/gm,(W+w)(t2-t1+tc)-(ta+tf)/x cal/gm,4
-chapter2,"In a Boy's gas calorimeter, a gaseous fuel was burnt and the following data was obtained. Volume of gas at STP 0.08 m³, Mass of cooling water used 29.5 kg. Rise in temperature of circulating water 9.1 °C. Mass of steam condensed= 0.04 kg. The Gross calorific value of the fuel will be kcal/m³.",268.814,3355.6,482.5,3360.17,4
-chapter2,"In a Boy's gas calorimeter, a gaseous Juel was burnt. The Gross calorific value was found to be 1200 kcal/m³ therefore the Net calorific value will be the mass of steam condensed is 0.025 kg and the volume of gas used is 0.1 m³ at",1346.75,1185.325,1053.25,1055,3
-chapter2,Which of the following is a primary fuel?,Charcoal,Wood,Petrol,LPG,2
-chapter2,What is the calorific value of gaseous fuels measured in?,Cal/m3,kcal/kg,kcal/m3,Cal/kg,3
-chapter2,Which component is high in good-quality coal?,Moisture,Ash,Volatile matter,Fixed carbon,4
-chapter2,Calculate the GCV (kJ/kg) if 1g fuel burns increasing water temperature from 25°C to 27.3°C in 420g water and 100g calorimeter equivalent.,(420+100)*(27.3-25)/1,(400+100)*(27.3-25)/1,(420+120)*(27.3-25)/1,(400+120)*(27.3-25)/1,1
-chapter2,What is the GCV formula for bomb calorimeter without corrections?,(W+w)*(t2-t1)-ta,(W*w)/(t2-t1),(W+w)*(t2-t1)/m,(W+w)/m,1
-chapter2,Which gas is a product of complete combustion of carbon?,CO,CO2,H2,H2O,2
-chapter2,The process of coal formation is called?,Carbonation,Carbonification,Coalification,Combustion,3
-chapter2,Which of the following reduces engine knocking in petrol engines?,Power Alcohol,Synthetic petrol,High sulfur compounds,Lead additives,1
-chapter2,What is the latent heat of steam used in NCV calculations?,587 cal/g,687 cal/g,500 cal/g,487 cal/g,1
-chapter2,Which substance is used to absorb CO2 in coal combustion analysis?,KOH,HCl,CaCl2,BaSO4,1
-chapter3,Which of the following is an example of dry corrosion?,Corrosion by oxygen,Corrosion by moisture,Galvanic corrosion,Electrochemical corrosion,1
-chapter3,What forms on the surface of iron when it rusts?,Magnetite,Ferric hydroxide,Rust,Cuprous oxide,2
-chapter3,Which method involves making the structure the cathode to prevent corrosion?,Anodic protection,Cathodic protection,Passive film formation,Barrier protection,2
-chapter3,What is the process of covering steel with zinc called?,Galvanizing,Tinning,Sherardizing,Electroplating,1
-chapter3,Which of the following describes stress corrosion?,Localized cracking under stress,Chemical reaction without stress,Decreases ductility in dry environments,Increase in tensile strength,1
-chapter3,"In sacrificial anodic protection, what acts as the sacrificial anode?",Copper,Magnesium,Aluminum,Zinc,2
-chapter3,What is the primary cause of wet corrosion?,Moisture in the air,Formation of oxide layers,Presence of salts,Electrochemical cell formation,4
-chapter3,Which type of corrosion occurs in the presence of crevices?,Pitting corrosion,Intergranular corrosion,Soil corrosion,Water-line corrosion,1
-chapter3,What is the function of a Pilling-Bedworth ratio greater than 1?,Protects against further oxidation,Promotes corrosion resistance,Induces brittleness,Makes the surface porous,1
-chapter3,Which electrolyte is commonly used for copper electroplating?,NiCl,CuSO4,KOH,H2SO4,2
-chapter3,Calculate the Pilling-Bedworth ratio for a metal with oxide volume 12 cm³ and metal volume 8 cm³.,1.5,1.2,1.6,1.8,3
-chapter3,"If a zinc-coated metal corrodes, which layer corrodes first?",Base metal,Zinc layer,Protective coating,Iron surface,2
-chapter3,What is the by-product of rust formation on iron?,Cuprous oxide,Iron hydroxide,Hydrogen gas,Ferric oxide,4
-chapter3,"In electrochemical corrosion, where does oxidation occur?",At cathode,At anode,At surface,Everywhere,2
-chapter3,What is the specific volume ratio important for?,Resistance to cracking,Adhesion of protective films,Prevention of oxidation,Oxide layer formation,2
-chapter3,What is the corrosion mechanism when oxygen is absorbed?,Hydrogen evolution,Oxygen absorption,Electrochemical reaction,Crevice corrosion,2
-chapter3,Find the Pilling-Bedworth ratio if oxide volume is 20 cm³ and metal volume is 10 cm³.,0.5,2,2.5,3,4
-chapter3,What happens in the impressed current cathodic protection method?,Anode corrodes,Prevents oxidation,Applies electrical charge,Converts anode to cathode,4
-chapter3,What is the role of magnesium in sacrificial anodic protection?,Acts as cathode,Acts as sacrificial anode,Prevents cathode corrosion,Provides electrons,2
-chapter3,"In galvanic corrosion, which metal corrodes?",The cathodic metal,The anodic metal,Both metals,Neither metal,2
+chapter1,What are suspended impurities in water?,"Soil, sand, organic waste",Colloidal particles,Dissolved gases,Microorganisms,1
+chapter1,How can colloidal impurities be removed from water?,Filtration only,Coagulation and filtration,Adding chlorine,Boiling,2
+chapter1,What causes hardness in water?,Salts of calcium and magnesium,Salts of sodium and potassium,Dissolved gases,Organic impurities,1
+chapter1,What is temporary hardness in water caused by?,Chlorides and sulfates,Carbonates and bicarbonates,Silica and sodium salts,Organic matter,2
+chapter1,Which method removes temporary hardness?,Chemical treatment,Boiling,UV sterilization,Coagulation,2
+chapter1,What reagent is used in EDTA titration for hardness determination?,Hydrochloric acid,Sodium hydroxide,Eriochrome Black-T,Methyl orange,3
+chapter1,What is the unit of water hardness?,mg/L,ppm (CaCO3 equivalent),mg/kg,% (mass),2
+chapter1,Which impurity is removed by warming water?,Colloidal impurities,Dissolved gases,Microbial impurities,All of these,2
+chapter1,How is dissolved oxygen in boiler water removed?,Adding Na2SO3,Adding HCl,Coagulation,Using chlorine,1
+chapter1,What pH range is maintained in boiler water to prevent corrosion?,6-7,7-8,8.5-9,9-10,3
+chapter1,What causes sludge formation in boilers?,Decreased solubility of salts,Presence of organic matter,Colloidal impurities,Hydrolysis of salts,1
+chapter1,What is used to remove scales in a boiler?,EDTA,Sodium hydroxide,Hydrochloric acid,Sodium chloride,1
+chapter1,Which chemical is used for zeolite regeneration?,Sodium chloride,Calcium chloride,Magnesium sulfate,Potassium permanganate,1
+chapter1,What is the primary principle of the zeolite process?,Ion exchange,Chemical oxidation,Coagulation,Filtration,1
+chapter1,Which of the following is a green solvent?,Benzene,Carbon tetrachloride,Water,Chloroform,3
+chapter1,What is the ideal pH range for boiler water?,7.5-8,8.5-9,9-10,10-11,2
+chapter1,What is the main disadvantage of scales in boilers?,Corrosion,Overheating,Fuel wastage,Increased water flow rate,3
+chapter1,What is the key concept of Green Chemistry?,Using renewable feedstocks,Increasing energy usage,Producing more byproducts,Reducing reactant efficiency,1
+chapter1,What is the principle of reverse osmosis?,Removing suspended particles,Flow of water under pressure,Ion exchange,Filtration,2
+chapter1,What is the formula for total hardness in EDTA titration?,(V × Z × 100) / Volume,(V × Z × 50 × 1000) / Volume,(V × Molarity × 1000) / Volume,(V × Z × 1000) / Volume,2
+chapter1,What happens when water containing Mg(HCO3)2 is boiled?,MgCO3 forms,Mg(OH)2 and CO2 form,MgCl2 forms,MgSO4 forms,2
+chapter1,What is the end-point color change in EDTA titration with Eriochrome Black-T?,Pink to green,Green to yellow,Pink to blue,Yellow to colorless,3
+chapter1,What is the reaction used to remove oxygen from boiler water?,Na2SO3 + O2 → Na2SO4,NaCl + O2 → NaClO3,NaOH + O2 → Na2O2,Na2CO3 + O2 → Na2CO3,1
+chapter1,Which chemical is used to prevent priming in boilers?,Na2SO3,NaOH,Sodium aluminate,Sodium chloride,3
+chapter1,What is the reaction that causes hydrolysis of MgCl2 in boiler water?,MgCl2 + H2O → Mg(OH)2 + HCl,MgCl2 + H2 → MgCl + H2O,MgCl2 + CO2 → MgCO3 + HCl,MgCl2 + NaOH → Mg(OH)2 + NaCl,1
+chapter1,How does reverse osmosis differ from normal osmosis?,Solvent moves to lower concentration under pressure,Solvent moves to higher concentration under pressure,Solutes move through membrane,Pressure is not required,2
+chapter1,Why are high-concentration salts in boilers avoided?,They reduce thermal efficiency,They cause sludge,They cause foaming,They increase water flow,3
+chapter1,What is the role of sodium phosphate in boiler water treatment?,Forms scales,Prevents sludge formation,Prevents caustic embrittlement,Enhances thermal conductivity,3
+chapter1,What is the principle behind the zeolite process?,Precipitation of salts,Ion exchange of Na+ with hardness ions,Neutralization of salts,Boiling of hardness ions,2
+chapter1,Which condition indicates Phenolphthalein alkalinity is greater than half of Methyl orange alkalinity?,Presence of OH- only,Presence of CO3 only,Presence of OH- and CO3 both,Presence of HCO3 only,3
+chapter1,What happens during the regeneration of exhausted zeolite?,CaZe converts to Na2Ze,Na2Ze converts to CaZe,MgZe converts to MgCl2,Na2Ze remains unchanged,1
+chapter1,What are the possible anions in water that cause alkalinity?,"OH-, CO3, HCO3","CO2, O2, HCO3","Cl-, NO3, CO3","HCO3, SO4, NO3",1
+chapter1,Why is methyl orange used after Phenolphthalein in alkalinity titration?,To detect CO3 ions,To detect HCO3 ions,To detect both OH- and CO3 ions,To neutralize acids completely,2
+chapter1,Which factor affects boiler scale formation?,Temperature of boiler water,Rate of steam generation,Solubility of salts,All of these,4
+chapter1,"What does ""temporary hardness + permanent hardness"" equal?",Total alkalinity,Total hardness,Total dissolved solids,Total ions in water,2
+chapter1,Why does silica cause scale formation in boilers?,It reacts with oxygen,It forms hard insoluble silicates,It decomposes to release gases,It reduces solubility of salts,2
+chapter1,What is the principle of electrodialysis?,Separation of solutes by gravity,Ion migration through selective membranes under electric field,Filtering ions,Boiling water,2
+chapter1,Why are renewable feedstocks emphasized in Green Chemistry?,To avoid synthetic polymers,To reduce environmental pollution,To use complex catalysts,To decrease temperature,2
+chapter1,How is NaCl used in the zeolite process?,To precipitate salts,To regenerate zeolite,To oxidize impurities,To neutralize acids,2
+chapter1,What does a higher Environmental Load Factor (E) indicate?,More waste produced,Higher energy efficiency,Safer process,Higher product purity,1
+chapter2,What is a primary fuel?,Charcoal,Producer gas,Crude petroleum,Synthetic petrol,3
+chapter2,Which of these is a characteristic of a good fuel?,Low ignition temperature,High moisture content,High calorific value,Produces harmful products,3
+chapter2,What is Gross Calorific Value (GCV)?,Heat at room temperature,Heat when products escape,Heat with combustion products cooled,Heat from latent heat,3
+chapter2,Which formula relates GCV and NCV?,NCV = GCV - latent heat,GCV = NCV + latent heat,NCV = GCV × latent heat,GCV = NCV / latent heat,2
+chapter2,"In a bomb calorimeter, fuel is burnt in:",Air at 25 atm,Oxygen at 25 atm,Nitrogen at 25 atm,Hydrogen at 25 atm,2
+chapter2,Which correction is added to GCV in a bomb calorimeter?,Fuse wire correction,Acid correction,Cooling correction,Combustion correction,3
+chapter2,What is the process of coal formation called?,Combustion,Fractionation,Coalification,Dehydration,3
+chapter2,Which test measures coal's volatile matter?,Hot-air oven test,Muffle furnace test,Bomb calorimeter test,Kjeldahl’s method,2
+chapter2,Which compound is used to measure sulfur content in coal ash?,Calcium chloride,Barium chloride,Potassium hydroxide,Sodium sulfate,2
+chapter2,What is the oxygen content in good quality coal?,High,Low,Moderate,Zero,2
+chapter2,What is the range of octane number for motor fuel?,50-60,60-70,85+,100+,3
+chapter2,What is biodiesel obtained from?,Non-renewable oils,Renewable oils,Fossil fuels,Combustion of coal,2
+chapter2,What is trans-esterification used for?,Hydrogen production,Biodiesel production,Petrol refining,Coal gasification,2
+chapter2,What is the flash point of biodiesel compared to conventional diesel?,Higher,Lower,Same,Unrelated,1
+chapter2,What is the main gas produced in steam reforming of methane?,Oxygen,Carbon dioxide,Hydrogen,Nitrogen,3
+chapter2,What does the Water Gas Shift Reaction produce?,CO and CO2,H2 and CO2,CH4 and CO,H2 and O2,2
+chapter2,"What does the term ""latent heat of steam"" refer to?",Heat required to boil water,Heat released during condensation,Heat absorbed by combustion products,Heat at room temperature,2
+chapter2,Which gas is a byproduct of hydrogen combustion?,CO2,CO,H2O,CH4,3
+chapter2,Which material stores hydrogen in chemical storage?,Carbon composites,Liquid nitrogen,Metal hydrides,Silica gels,3
+chapter2,What is the primary challenge of hydrogen storage?,Poor volumetric density,High calorific value,Reactivity with metals,Complex combustion process,1
+chapter2,What is the main component of fossil fuels?,Carbon,Oxygen,Nitrogen,Sulfur,1
+chapter2,Which of the following is a secondary fuel?,Wood,Diesel,Natural gas,Peat,2
+chapter2,What is the unit of calorific value for gaseous fuels in SI?,Cal/L,kcal/kg,J/m³,B Th U/ft³,3
+chapter2,What is the latent heat of steam used in calorific value calculations?,487 cal/g,587 cal/g,687 cal/g,387 cal/g,2
+chapter2,Which device is used to determine calorific value?,Thermometer,Bomb calorimeter,Barometer,Hydrometer,2
+chapter2,"During combustion in a Bomb calorimeter, which gas is supplied at high pressure?",Hydrogen,Nitrogen,Oxygen,Carbon dioxide,3
+chapter2,Which type of fuel has the highest calorific value?,Solid fuels,Liquid fuels,Gaseous fuels,All have the same,3
+chapter2,Which of these is a characteristic of a good fuel?,High moisture content,High calorific value,High ash content,Difficult to store,2
+chapter2,What is the primary constituent of natural gas?,Methane,Ethane,Propane,Butane,1
+chapter2,What process converts plants to coal?,Calorification,Combustion,Coalification,Condensation,3
+chapter2,Which analysis determines the ash content in coal?,Ultimate analysis,Proximate analysis,Calorimetric analysis,Hydrometric analysis,2
+chapter2,Which fraction of crude oil is used as aviation fuel?,Naphtha,Diesel,Kerosene,Residue,3
+chapter2,What is the octane number of fuel required for airplanes?,85,90,95,Above 100,4
+chapter2,What is the major drawback of biodiesel?,Toxicity,High sulfur content,High cloud point,Low calorific value,3
+chapter2,Which reaction occurs during hydrogen gas production via steam reforming of methane?,CH₄ + 2H₂O → CO₂ + 4H₂,CH₄ + H₂ → C + 2H₂O,CH₄ + H₂O → CO + 3H₂,CH₄ → C + 2H₂,3
+chapter2,What is the percentage of oxygen by weight in air?,21%,23%,25%,20%,2
+chapter2,What is the main advantage of using power alcohol?,High calorific value,Reduces engine life,Clean burning,Causes corrosion,3
+chapter2,Which method is used for nitrogen determination in coal?,Eschka's method,Kjeldahl’s method,Dumas method,Titration method,2
+chapter2,"In hydrogen storage, what is used in chemical storage methods?",Carbonates,Metal hydrides,Silica,Nitrogen gas,2
+chapter2,What is the typical boiling range of diesel oil?,180-250°C,250-320°C,320-400°C,100-200°C,2
+chapter3,What is the main definition of corrosion?,Strengthening of metals,Spontaneous destruction of metals,Formation of new alloys,Enhancement of metallic properties,2
+chapter3,What is the main cause of metallic corrosion?,Reduced exposure to air,Thermodynamic stability of ores,Low reactivity of metals,High grain size in metals,2
+chapter3,Which gas commonly causes rusting of iron?,Hydrogen,Oxygen,Carbon dioxide,Methane,2
+chapter3,What type of corrosion occurs due to direct chemical attack by gases?,Wet corrosion,Electrochemical corrosion,Dry corrosion,Galvanic corrosion,3
+chapter3,What is the principle behind the Pilling-Bedworth Rule?,Cathodic area increases corrosion,Anodic area must be larger than cathodic area,Volume of oxide to metal determines protection,Corrosion increases at low temperatures,3
+chapter3,Which metal does not undergo oxidation corrosion?,Magnesium,Platinum,Zinc,Iron,2
+chapter3,What type of oxide layer is porous?,Al₂O₃,FeO,MgO,Cr₂O₃,2
+chapter3,"What is ""hydrogen embrittlement""?",Strengthening of metal due to hydrogen,Decrease in ductility due to hydrogen,Alloy formation with hydrogen,Metal dissolution in acidic hydrogen,2
+chapter3,In which type of corrosion do anodic and cathodic regions form?,Wet corrosion,Dry corrosion,Thermal corrosion,Metal fatigue,1
+chapter3,What is the role of sacrificial anodes in cathodic protection?,Prevent hydrogen evolution,Provide anodic protection,Corrode instead of the protected metal,Increase environmental resistance,3
+chapter3,What is an example of a passive metal?,Sodium,Iron,Aluminium,Zinc,3
+chapter3,Which type of coating involves zinc to protect steel?,Galvanizing,Tinning,Anodizing,Sherardizing,1
+chapter3,Which coating method uses molten metal and heat for adhesion?,Cladding,Electroplating,Hot dipping,Cementation,3
+chapter3,"What causes ""water line corrosion""?",Low oxygen below water,High oxygen above water,Equal oxygen levels,High temperature,1
+chapter3,What type of corrosion occurs due to differences in aeration?,Stress corrosion,Pitting corrosion,Concentration cell corrosion,Soil corrosion,3
+chapter3,Which metal is commonly used as a sacrificial anode?,Copper,Zinc,Lead,Silver,2
+chapter3,What is the process of coating steel with tin?,Electroplating,Tinning,Galvanizing,Chromizing,2
+chapter3,What is the purpose of a potentiostat in anodic protection?,Increase cathodic reaction,Control passive potential,Decrease environmental resistance,Improve film porosity,2
+chapter3,Which process involves atomic diffusion to form coatings?,Galvanizing,Electroplating,Cementation,Hot dipping,3
+chapter3,Which type of corrosion occurs due to stress and environment interaction?,Erosion corrosion,Stress corrosion,Pitting corrosion,Soil corrosion,2
+chapter3,What is the mechanism behind intergranular corrosion?,Cathodic film formation,Stress concentration,Grain boundary attack,Electroplating,3
+chapter3,Which metal is least affected by oxidation corrosion?,Zinc,Nickel,Silver,Iron,3
+chapter3,What factor accelerates electrochemical corrosion?,High over-voltage,Reduced oxygen,Stress-induced cracking,Conductive electrolyte,4
+chapter3,Which metal is commonly used in sacrificial anodes for boilers?,Aluminium,Magnesium,Zinc,Copper,2
+chapter3,What is the ideal condition for pitting corrosion?,High aeration,Small anodic area,Uniform electrolyte concentration,High humidity,2
+chapter3,Why is hydrogen evolution type corrosion common in acidic environments?,Higher oxidation potential,High H⁺ ion availability,Absence of cathodic reaction,Formation of oxide film,2
+chapter3,What is a limitation of the anodic protection method?,Applicable to passive metals only,Requires no external power,Increases corrosion rate,Incompatible with acids,1
+chapter3,What distinguishes hot dipping from electroplating?,Use of electrical current,High-temperature bath,Formation of complex alloys,Application to non-metals,2
+chapter3,Which substance is commonly used as flux in hot-dip galvanizing?,NaCl,ZnCl₂,AlCl₃,K₂Cr₂O₇,2
+chapter3,What is the PBR ratio for a stable oxide layer?,<1,0,1,>1,4
+chapter3,What role do ferroxyl indicators play in corrosion detection?,Inhibit anode formation,Detect cathodic reactions,Visualize corrosion mechanisms,Neutralize electrolytes,3
+chapter3,Which method uses aluminium powder for coating?,Chromizing,Galvanizing,Colorizing,Electroplating,3
+chapter3,Which component of the environment increases soil corrosion?,Oxygen,Moisture,Sulfur,Salts,2
+chapter3,What is the chemical reaction at the cathode during rusting of iron?,Fe → Fe²⁺ + 2e⁻,2H⁺ + 2e⁻ → H₂,½O₂ + H₂O + 2e⁻ → 2OH⁻,Fe²⁺ + 2OH⁻ → Fe(OH)₂,3
+chapter3,What happens when a galvanic cell is formed between zinc and copper?,Zinc becomes cathode,Copper corrodes,Zinc acts as anode,Reaction stops,3
+chapter3,Why is chromium often used in protective coatings?,Non-passivating behavior,Forms a non-porous oxide film,High electrical conductivity,Low melting point,2
+chapter3,What does high over-voltage indicate about a metal's corrosion rate?,Rapid corrosion,Slow corrosion,No corrosion,Increased ductility,2
+chapter3,How does temperature influence corrosion?,No impact,Decreases corrosion rate,Increases corrosion rate,Alters metal conductivity,3
+chapter3,What is the purpose of annealing in corrosion prevention?,Improves passivation,Reduces residual stress,Enhances anodic reactions,Forms porous oxide layers,2
+chapter3,Which gas promotes hydrogen embrittlement in metals?,Oxygen,Hydrogen sulfide,Methane,Carbon dioxide,2
+chapter4,What is a polymer?,A small molecule,A macromolecule made of monomers,A metal compound,A crystalline solid,2
+chapter4,What type of bond is crucial for forming polymers?,Ionic bonds,Metallic bonds,Covalent bonds,Hydrogen bonds,3
+chapter4,What determines the degree of polymerization?,Molecular weight of polymer,Polymer chain length,Molecular weight ratio of polymer to monomer,Density of polymer,3
+chapter4,Which polymer softens upon heating?,Thermosetting,Thermoplastics,Cross-linked polymer,Amorphous polymer,2
+chapter4,What is an example of a thermosetting polymer?,Polyethylene,Polypropylene,Bakelite,Polystyrene,3
+chapter4,"What are the main monomers in nylon-6,6?",Ethylene and benzene,Adipic acid and hexamethylene diamine,Acrylic acid and styrene,Terephthalic acid and ethylene glycol,2
+chapter4,Which polymer exhibits alternating single and double bonds?,Polyethylene,Polyacetylene,Polystyrene,Polyvinyl chloride,2
+chapter4,What is the structural characteristic of conducting polymers?,Crystalline structure,Conjugated π-electron system,Isotropic arrangement,Amorphous regions,2
+chapter4,Which of these is a biodegradable polymer?,PVC,PET,PHBV,Nylon,3
+chapter4,What is the main advantage of liquid crystal polymers?,Low melting point,High rigidity and thermal stability,High solubility,Easy recyclability,2
+chapter4,Which polymer is used in bulletproof vests?,Polypropylene,Polyethylene terephthalate,Kevlar,Polystyrene,3
+chapter4,What type of polymerization produces polyethylene?,Addition polymerization,Condensation polymerization,Ring-opening polymerization,Cross-linking polymerization,1
+chapter4,Which polymerization process releases small molecules like water?,Addition polymerization,Condensation polymerization,Free-radical polymerization,Ziegler-Natta polymerization,2
+chapter4,Which material shows electroluminescence?,Bakelite,PPV,Teflon,Nylon,2
+chapter4,Which additive increases the flexibility of polymers?,Plasticizer,Catalyst,Oxidizing agent,Antioxidant,1
+chapter4,What is the glass transition temperature (Tg) of PVC?,-20°C,80°C,100°C,150°C,2
+chapter4,Which polymer has excellent tensile strength due to intermolecular hydrogen bonding?,Polystyrene,Polyvinyl chloride,Kevlar,Polypropylene,3
+chapter4,What is a random copolymer?,Monomers arranged in blocks,Monomers alternate in the chain,Monomers arranged randomly,Monomers grafted onto the chain,3
+chapter4,What type of polymer is polyethylene terephthalate (PET)?,Elastomer,Thermoplastic,Thermosetting polymer,Biodegradable polymer,2
+chapter4,Which type of polymer contains grafted side chains?,Homopolymer,Copolymer,Graft polymer,Block polymer,3
+chapter4,What type of polymers exhibit both liquid and solid crystalline properties?,Elastomers,Liquid crystal polymers,Conducting polymers,Amorphous polymers,2
+chapter4,Which factor significantly affects the glass transition temperature (Tg) of a polymer?,Monomer solubility,Chain rigidity,Metal content,Polymer crystallinity,2
+chapter4,What kind of structure does Kevlar have?,Amorphous,Cross-linked network,Strip-like orientation with hydrogen bonding,Random arrangement of chains,3
+chapter4,Which polymer is synthesized using a Ziegler-Natta catalyst?,Polyethylene,Polyamide,"Nylon-6,6",Polycarbonate,1
+chapter4,How can the conductivity of conducting polymers be increased?,Doping,Heating,Cooling,Increasing chain rigidity,1
+chapter4,Which phase occurs in liquid crystal polymers?,Glassy,Amorphous,Nematic,Viscous,3
+chapter4,What is the characteristic property of thermosetting polymers?,Recyclability,High tensile strength,Softening on heating,Resistance to moisture,2
+chapter4,Why is PHBV considered a biodegradable polymer?,High crystallinity,Presence of ester bonds,Low molecular weight,Random copolymer structure,2
+chapter4,What type of polymer is Teflon (PTFE)?,Elastomer,Thermoplastic,Thermosetting polymer,Biodegradable polymer,2
+chapter4,Which technique measures polymer crystallinity?,UV spectroscopy,X-ray diffraction,Titration,IR spectroscopy,2
+chapter4,Which polymerization method involves step-by-step chain growth?,Addition polymerization,Condensation polymerization,Free-radical polymerization,Living polymerization,2
+chapter4,Which factor increases a polymer's melt transition temperature (Tm)?,Lower crystallinity,Irregular chain structure,High molecular weight,Use of additives,3
+chapter4,Which polymer is used in electroluminescent devices?,Polyacetylene,Polyaniline,Polyphenylene vinylene (PPV),Polypropylene,3
+chapter4,What structural property contributes to the strength of Kevlar?,Linear chains,High molecular weight,Hydrogen bonding between chains,Low density,3
+chapter4,Which doped polymer is used in solar cells?,PPV,Polystyrene,"Nylon-6,6",Teflon,1
+chapter4,What kind of bonds are found in elastomers?,Ionic bonds,Covalent bonds with cross-links,Metallic bonds,Weak hydrogen bonds,2
+chapter4,Which process aligns polymer chains to improve strength?,Annealing,Quenching,Stretching,Blending,3
+chapter4,"What does the term ""degree of polymerization"" indicate?",Polymer density,Number of monomers in a polymer,Polymer crystallinity,Polymer solubility,2
+chapter4,Which polymer is commonly used for fire-resistant fabrics?,Nylon,PVC,Polycarbonate,Kevlar,4
+chapter4,What is the key disadvantage of conducting polymers?,High production cost,Low thermal stability,Poor conductivity,Lack of applications,1
