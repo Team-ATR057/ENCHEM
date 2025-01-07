@@ -33,7 +33,7 @@ Welcome to <b>ENCHEM</b>, an educational platform designed to support first-year
 ---<br>
 <br>
 🖥️ <b>Live Preview</b>  <br>
-Check out the live website here: [ENCHEM](https://team-atr057.github.io/ENCHEM/)  <br>
+Check out the live website here: [ENCHEM](https://team-atr057.github.io/ENCHEM/) <br>
 <br>
 ---<br>
 <br>
