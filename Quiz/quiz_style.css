@@ -134,3 +134,20 @@ button:disabled {
 #skip-btn:hover, #end-btn:hover {
   background-color: #e0a800;
 }
+
+.retry{
+  padding: 10% 20%;
+  margin-top: 10%;
+  border: solid #a7a7a7 2px;
+  border-radius: 10px;
+  background-color:#ffffff;
+  transition:  0.1s ease-out;
+}
+
+.retry:hover{
+  background-color:#ebebeb ;
+    margin-top: 10%;
+    border: solid black 2px;
+    border-radius: 10px;
+
+}
